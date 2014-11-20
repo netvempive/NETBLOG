@@ -1,4 +1,4 @@
 NETBLOG
 =======
 
-personal blog , 2014/11/20
+personal blog , 2014/11/20 start
