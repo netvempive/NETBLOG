@@ -7,6 +7,6 @@ personal blog , 2014/11/20 start by net
 
 >>markdown
 
-*firest
-*sencend
-*third
+* firest
+* sencend
+* third
