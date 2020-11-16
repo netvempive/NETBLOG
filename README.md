@@ -34,3 +34,12 @@ ssl_ciphers ECDHE-RSA-AES128-GCM-SHA256:ECDHE:ECDH:AES:HIGH:!NULL:!aNULL:!MD5:!A
 ssl_protocols TLSv1 TLSv1.1 TLSv1.2;
 ssl_prefer_server_ciphers on;
 
+
+
+
+
+yum -y install make zlib zlib-devel gcc-c++ libtool openssl openssl-devel
+
+./configure --prefix=/usr/local/nginx --with-http_ssl_module
+
+make && make install
