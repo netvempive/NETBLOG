@@ -43,3 +43,12 @@ yum -y install make zlib zlib-devel gcc-c++ libtool openssl openssl-devel
 ./configure --prefix=/usr/local/nginx --with-http_ssl_module
 
 make && make install
+
+
+
+grant select,insert,update,delete on beiben_uat11.ti_tt_claim_balance to 'U8'@'%';
+grant select,insert,update,delete on beiben_uat11.ti_tt_claim_balance_dtl to 'U8'@'%' ; 
+grant select,insert,update,delete on beiben_uat11.ti_pt_cancel_return to 'U8'@'%' ;
+grant select,insert,update,delete on beiben_uat11.ti_pt_purchase to 'U8'@'%' ;
+grant select,insert,update,delete on beiben_uat11.ti_pt_return to 'U8'@'%' ;
+grant select,insert,update,delete on beiben_uat11.ti_pt_carryover to 'U8'@'%' ;
